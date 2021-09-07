@@ -1,0 +1,258 @@
+/**
+  Antimortality Stylesheet
+ */
+
+$am-dark: #000;
+$am-light: #F4F4F4;
+$am-gray: #212121;
+$am-red: #ff0000;
+$am-green: #00ff00;
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: $am-dark;
+  color: $am-light;
+  font-family: 'Courier New';
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  color: $am-light;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+  .header {
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    margin-bottom: 25px;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
+
+  &> img {
+    width: 50px;
+    // margin: 50px 0 25px 0;
+  }
+}
+
+.tree {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+
+  .branch {
+    width: 450px;
+    margin: 0 50px;
+
+    h1 {
+      margin-bottom: 50px;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 5px;
+      border-bottom: 1px solid $am-light;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.node {
+  display: flex;
+  align-items: center;
+  transition: 2s;
+  flex: 1;
+
+  &:not(:first-of-type) {
+    margin-top: 50px;
+  }
+
+  &:not(:last-of-type) {
+    margin-bottom: 50px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(150%);
+    transform: scale(1.05, 1.05);
+    transition: 0.1s;
+
+    .node-icon {
+      transform: scale(1.05, 1.05) rotate(45deg);
+      transition: 0.1s;
+
+      i {
+        color: $am-red;
+      }
+    }
+
+    h3 {
+      color: $am-red;
+    }
+  }
+
+  .node-icon {
+    height: 60px;
+    width: 60px;
+    border: 2px solid $am-light;
+    transform: rotate(45deg);
+    background-color: $am-gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+
+    i {
+      transform: rotate(-45deg);
+      font-size: 25px;
+    }
+  }
+
+  .node-body {
+    height: auto;
+    flex: 1;
+    border: 2px solid $am-light;
+    padding: 15px 20px 15px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -25px;
+    background-color: $am-gray;
+  }
+
+  h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: -3px;
+    margin-bottom: 3px;
+  }
+
+  p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+}
+
+.checkbox-outer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+
+  .checkbox {
+    height: 20px;
+    width: 20px;
+    border: 1px solid $am-light;
+    background-color: $am-gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 12px;
+      color: $am-green;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    margin-left: 10px;
+    flex: 1;
+    letter-spacing: 0.5px;
+  }
+}
+
+.project {
+  height: 20px;
+  display: inline-flex;
+  color: $am-light;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  background-color: $am-gray;
+  border: 1px solid $am-light;
+  margin-right: 15px;
+  align-items: center;
+  padding: 0 5px;
+  transition: 2s;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+    transition: 0.1s;
+
+    p {
+      color: $am-red;
+    }
+  }
+
+  img {
+    height: 12px;
+    width: 12px;
+  }
+
+  &:last-of-type {
+    margin-bottom: 40px;
+  }
+
+  p {
+    margin-left: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .tree .branch {
+    width: 375px;
+    margin: 0 25px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .tree {
+    flex-direction: column;
+
+    .branch {
+      width: 90%;
+      margin: 50px 0 0 5%;
+    }
+  }
+
+  .outer {
+
+    &> p {
+      text-align: center;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+}
