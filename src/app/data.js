@@ -437,7 +437,7 @@ export const ascension = [
         ]
       },
       {
-        text: "Create artificial brain",
+        text: "Artificial brain",
         completed: false,
       },
       {
