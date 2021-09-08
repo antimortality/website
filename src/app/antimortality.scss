@@ -31,21 +31,16 @@ i {
   color: $am-light;
 }
 
-#root {
-  height: 100%;
-  width: 100%;
-}
-
 .outer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
 
   .header {
     margin-bottom: 50px;
+    text-align: center;
+    line-height: 22px;
   }
 
   .footer {
@@ -59,7 +54,7 @@ i {
 
   &> img {
     width: 50px;
-    // margin: 50px 0 25px 0;
+    margin: 50px 0 25px 0;
   }
 }
 

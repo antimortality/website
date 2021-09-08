@@ -5,7 +5,11 @@ export const prevention = [
     icon: "fas fa-lungs",
     problems: [
       {
-        text: "Organ vitrification without damage",
+        text: "Prevent ice formation",
+        completed: true,
+      },
+      {
+        text: "Full organ vitrification without damage",
         completed: false,
         projects: [
           {
@@ -62,12 +66,6 @@ export const prevention = [
       {
         text: "Portable cryopreservation chambers",
         completed: false,
-        projects: [
-          {
-            name: "Cryopets",
-            url: "https://cryopets.com",
-          }
-        ]
       },
       {
         text: "Full body cryopreservation",
@@ -113,17 +111,11 @@ export const prevention = [
         ]
       },
       {
-        text: "Nanomedicine",
+        text: "Prepare revived patients for re-entry into society",
         completed: false,
-        projects: [
-          {
-            name: "Oper Technology",
-            url: "http://opertechnology.com/",
-          }
-        ]
       },
       {
-        text: "Prepare revived patients for re-entry into society",
+        text: "Nanomedicine",
         completed: false,
       },
     ]
@@ -137,13 +129,9 @@ export const extension = [
     icon: "fas fa-microscope",
     problems: [
       {
-        text: "Discover mechanisms underlying epigenetic aging",
-        completed: false,
+        text: "Discover mechanisms underlying aging process",
+        completed: true,
         projects: [
-          {
-            name: "Calico",
-            url: "https://www.calicolabs.com/",
-          },
           {
             name: "SENS",
             url: "https://www.sens.org/",
@@ -151,33 +139,11 @@ export const extension = [
         ]
       },
       {
-        text: "Build human aging clock",
+        text: "Accurate human aging clock to test efficacy of interventions",
         completed: false,
-        projects: [
-          {
-            name: "Elysium Health",
-            url: "https://www.elysiumhealth.com/",
-          },
-          {
-            name: "GlycanAge",
-            url: "https://glycanage.com/",
-          },
-          {
-            name: "myDNAge",
-            url: "https://www.mydnage.com/",
-          },
-          {
-            name: "Thorne",
-            url: "https://www.thorne.com/",
-          },
-          {
-            name: "Viome",
-            url: "https://www.viome.com/",
-          },
-        ]
       },
       {
-        text: "Composite biomarker of multi-morbidity risk",
+        text: "Composite biomarker of multimorbidity risk",
         completed: false,
       },
       {
@@ -250,9 +216,15 @@ export const extension = [
             name: "Calico",
             url: "https://www.calicolabs.com/",
           },
+        ]
+      },
+      {
+        text: "Epigenetic reprogramming",
+        completed: false,
+        projects: [
           {
-            name: "Intervene Immune",
-            url: "http://interveneimmune.com/",
+            name: "Rejuvenate Bio",
+            url: "https://www.rejuvenatebio.com/",
           },
           {
             name: "Life Biosciences",
@@ -262,123 +234,17 @@ export const extension = [
             name: "Turn.bio",
             url: "https://www.turn.bio/",
           },
-        ]
-      },
-      {
-        text: "Gene therapy for aging",
-        completed: false,
-        projects: [
-          {
-            name: "Rejuvenate Bio",
-            url: "https://www.rejuvenatebio.com/",
-          }
         ],
       },
       {
-        text: "Fecal microbiota transplantation against frailty",
-        completed: false,
-      },
-      {
-        text: "Revascularization",
-        completed: false,
-      },
-      {
-        text: "Thymus regrowth",
-        completed: false,
-      },
-      {
-        text: "Replacement brain cells and tissue",
-        completed: false,
-      },
-      {
-        text: "Transcriptional reprogramming",
-        completed: false,
-      },
-      {
-        text: "Target immunosenescence",
-        completed: false,
-      },
-      {
-        text: "Targeted brain therapies for aging",
-        completed: false,
-      },
-      {
-        text: "Halt atrophy of neuronal circadian clock",
-        completed: false,
-      },
-      {
-        text: "Extracellular glycation",
-        completed: false,
-      },
-      {
-        text: "Immunotherapeutic clearance",
+        text: "Aging damage repair",
         completed: false,
         projects: [
           {
             name: "SENS",
             url: "https://www.sens.org/",
           },
-        ]
-      },
-      {
-        text: "Targeted ablation",
-        completed: false,
-        projects: [
-          {
-            name: "SENS",
-            url: "https://www.sens.org/",
-          },
-        ]
-      },
-      {
-        text: "AGE-breaking molecules; tissue engineering",
-        completed: false,
-        projects: [
-          {
-            name: "SENS",
-            url: "https://www.sens.org/",
-          },
-        ]
-      },
-      {
-        text: "Novel lysosomal hydrolases",
-        completed: false,
-        projects: [
-          {
-            name: "SENS",
-            url: "https://www.sens.org/",
-          },
-        ]
-      },
-      {
-        text: "Allotopic expression of 13 proteins",
-        completed: false,
-        projects: [
-          {
-            name: "SENS",
-            url: "https://www.sens.org/",
-          },
-        ]
-      },
-      {
-        text: "Removal of telomere-lengthening machinery",
-        completed: false,
-        projects: [
-          {
-            name: "SENS",
-            url: "https://www.sens.org/",
-          },
-        ]
-      },
-      {
-        text: "Stem cells and tissue engineering",
-        completed: false,
-        projects: [
-          {
-            name: "SENS",
-            url: "https://www.sens.org/",
-          },
-        ]
+        ],
       },
     ]
   },
@@ -391,6 +257,16 @@ export const ascension = [
     icon: "fas fa-running",
     problems: [
       {
+        text: "Gene-editing tools",
+        completed: true,
+        projects: [
+          {
+            name: "Doudna Lab",
+            url: "https://doudnalab.org/",
+          },
+        ]
+      },
+      {
         text: "Consumer genetic engineering",
         completed: false,
         projects: [
@@ -401,7 +277,7 @@ export const ascension = [
         ]
       },
       {
-        text: "Artificial organs",
+        text: "Artificial and grown organs",
         completed: false,
         projects: [
           {
@@ -415,14 +291,18 @@ export const ascension = [
         ]
       },
       {
-        text: "Bionic implants",
+        text: "Bionic implants and cyberware",
+        completed: false,
+      },
+      {
+        text: "Neurological enhancements",
         completed: false,
       },
     ]
   },
   {
     title: "Synthetic Bodies",
-    description: "Recreate artificial human body",
+    description: "Recreate human body artificially",
     icon: "fas fa-person-booth",
     problems: [
       {
@@ -437,21 +317,11 @@ export const ascension = [
             name: "Tesla",
             url: "https://www.tesla.com/",
           },
-          {
-            name: "MELTIN MMI",
-            url: "https://www.meltin.jp/en/",
-          },
         ]
       },
       {
         text: "Artificial human body",
         completed: false,
-        projects: [
-          {
-            name: "SynDaver",
-            url: "https://syndaver.com/",
-          },
-        ]
       },
       {
         text: "Simulate biological feelings and senses",
@@ -465,7 +335,7 @@ export const ascension = [
   },
   {
     title: "Consciousness Transfer",
-    description: "Transfer consciousness to new body",
+    description: "Transfer consciousness to new brain",
     icon: "fas fa-brain",
     problems: [
       {
@@ -513,10 +383,6 @@ export const ascension = [
           {
             name: "NextMind",
             url: "https://www.next-mind.com",
-          },
-          {
-            name: "MELTIN MMI",
-            url: "https://www.meltin.jp/en/",
           },
           {
             name: "BitBrain",
