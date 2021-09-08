@@ -115,6 +115,10 @@ export const prevention = [
         completed: false,
       },
       {
+        text: "Induced cryosleep for deep space missions",
+        completed: false,
+      },
+      {
         text: "Nanomedicine",
         completed: false,
       },
@@ -148,6 +152,10 @@ export const extension = [
       },
       {
         text: "In silico human model for aging",
+        completed: false,
+      },
+      {
+        text: "Mainstream medical support",
         completed: false,
       },
     ]
@@ -201,24 +209,6 @@ export const extension = [
     icon: "fas fa-history",
     problems: [
       {
-        text: "Cellular rejuvenation",
-        completed: false,
-        projects: [
-          {
-            name: "AgeX",
-            url: "https://www.agexinc.com/",
-          },
-          {
-            name: "Alkahest",
-            url: "https://www.alkahest.com/",
-          },
-          {
-            name: "Calico",
-            url: "https://www.calicolabs.com/",
-          },
-        ]
-      },
-      {
         text: "Epigenetic reprogramming",
         completed: false,
         projects: [
@@ -237,6 +227,24 @@ export const extension = [
         ],
       },
       {
+        text: "Cellular rejuvenation",
+        completed: false,
+        projects: [
+          {
+            name: "AgeX",
+            url: "https://www.agexinc.com/",
+          },
+          {
+            name: "Alkahest",
+            url: "https://www.alkahest.com/",
+          },
+          {
+            name: "Calico",
+            url: "https://www.calicolabs.com/",
+          },
+        ]
+      },
+      {
         text: "Aging damage repair",
         completed: false,
         projects: [
@@ -245,6 +253,14 @@ export const extension = [
             url: "https://www.sens.org/",
           },
         ],
+      },
+      {
+        text: "Full reversal of human aging process",
+        completed: false,
+      },
+      {
+        text: "FDA approval of age reversal therapy",
+        completed: false,
       },
     ]
   },
@@ -321,6 +337,10 @@ export const ascension = [
       },
       {
         text: "Artificial human body",
+        completed: false,
+      },
+      {
+        text: "Control bionics from the brain",
         completed: false,
       },
       {

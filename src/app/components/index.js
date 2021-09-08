@@ -1,7 +1,7 @@
 import React from 'react';
 import Node from "./node";
 import Checkbox from "./checkbox";
-import Project from "./project";
+// import Project from "./project";
 import { prevention, extension, ascension } from "../data";
 
 /**
@@ -20,15 +20,15 @@ const Branch = ({ data }) => {
           return (
             <>
               <Checkbox text={problem.text} completed={problem.completed} key={problem.text} />
-              <div className="projects">
-                {
-                  problem.projects && problem.projects.map((project) => {
-                    return (
-                      <Project name={project.name} url={project.url} key={project.name} />
-                    )
-                  })
-                }
-              </div>
+              {/*<div className="projects">*/}
+              {/*  {*/}
+              {/*    problem.projects && problem.projects.map((project) => {*/}
+              {/*      return (*/}
+              {/*        <Project name={project.name} url={project.url} key={project.name} />*/}
+              {/*      )*/}
+              {/*    })*/}
+              {/*  }*/}
+              {/*</div>*/}
             </>
           )
         })
