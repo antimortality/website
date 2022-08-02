@@ -221,7 +221,7 @@ export const extension = [
     icon: "fas fa-brain",
     problems: [
       {
-        text: "Induced neuronal subtypes, glia, microglia, and vascular cells",
+        text: "Brain tissue construction",
         completed: false,
         projects: [
           {
@@ -231,7 +231,11 @@ export const extension = [
         ]
       },
       {
-        text: "Brain tissue construction",
+        text: "Robotic brain surgery",
+        completed: false,
+      },
+      {
+        text: "Brain tissue silencing",
         completed: false,
         projects: [
           {
@@ -254,7 +258,7 @@ export const extension = [
   },
   {
     title: "Whole-body replacement",
-    description: "Replace entire human body",
+    description: "Replace entire body except for brain",
     icon: "fas fa-person-booth",
     problems: [
       {
