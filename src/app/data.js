@@ -297,7 +297,11 @@ export const extension = [
     icon: "fas fa-history",
     problems: [
       {
-        text: "Senolytics",
+        text: "Define aging",
+        completed: false,
+      },
+      {
+        text: "Biomarkers for measuring interventions",
         completed: false,
       },
       {
@@ -319,14 +323,8 @@ export const extension = [
         ],
       },
       {
-        text: "Aging damage repair",
+        text: "Senolytics",
         completed: false,
-        projects: [
-          {
-            name: "SENS",
-            url: "https://www.sens.org/",
-          },
-        ],
       },
       {
         text: "Prevent immune system decline",
@@ -335,28 +333,6 @@ export const extension = [
           {
             name: "Intervene Immune",
             url: "http://interveneimmune.com/",
-          },
-        ],
-      },
-      {
-        text: "Gene therapy",
-        completed: false,
-        projects: [
-          {
-            name: "Rejuvenate Bio",
-            url: "https://www.sens.org/",
-          },
-          {
-            name: "Minicircle",
-            url: "https://minicircle.io/",
-          },
-          {
-            name: "Gordian Biotechnology",
-            url: "https://www.gordian.bio/",
-          },
-          {
-            name: "Centaura",
-            url: "https://centaura.com/",
           },
         ],
       },
@@ -389,6 +365,38 @@ export const extension = [
             url: "https://www.shiftbioscience.com/",
           },
         ]
+      },
+      {
+        text: "Gene therapy",
+        completed: false,
+        projects: [
+          {
+            name: "Rejuvenate Bio",
+            url: "https://www.sens.org/",
+          },
+          {
+            name: "Minicircle",
+            url: "https://minicircle.io/",
+          },
+          {
+            name: "Gordian Biotechnology",
+            url: "https://www.gordian.bio/",
+          },
+          {
+            name: "Centaura",
+            url: "https://centaura.com/",
+          },
+        ],
+      },
+      {
+        text: "Aging damage repair",
+        completed: false,
+        projects: [
+          {
+            name: "SENS",
+            url: "https://www.sens.org/",
+          },
+        ],
       },
     ]
   },
