@@ -1,28 +1,30 @@
 export const prevention = [
   {
-    title: "Organ Cryopreservation",
-    description: "Preserve human organs in cryostasis",
-    icon: "fas fa-lungs",
+    title: "Animal Cryopreservation",
+    description: "Cryonics for pets",
+    icon: "fas fa-cat",
     problems: [
       {
-        text: "Prevent ice formation",
+        text: "Reversible cryopreservation of animal organs",
         completed: true,
-      },
-      {
-        text: "Full organ vitrification without damage",
-        completed: false,
         projects: [
           {
             name: "21st Century Medicine",
-            url: "https://www.21cm.com/",
+            url: "https://21cm.com",
+          },
+        ]
+      },
+      {
+        text: "Ultrastructure preservation of animal brains",
+        completed: true,
+        projects: [
+          {
+            name: "21st Century Medicine",
+            url: "https://21cm.com",
           },
           {
-            name: "Biostasis Research Institute",
-            url: "https://biostasisresearch.org/",
-          },
-          {
-            name: "Organ Preservation Alliance",
-            url: "https://www.organpreservationalliance.org/",
+            name: "Nectome",
+            url: "https://nectome.com",
           }
         ]
       },
@@ -32,43 +34,97 @@ export const prevention = [
         projects: [
           {
             name: "21st Century Medicine",
-            url: "https://www.21cm.com/",
+            url: "https://21cm.com",
           },
         ]
       },
       {
-        text: "Restore and use cryopreserved organs",
+        text: "Reversible cryopreservation of animal brains",
         completed: false,
+        projects: [
+          {
+            name: "Lorentz Bio",
+            url: "https://www.lorentz.bio/",
+          },
+        ]
       },
       {
-        text: "Organ banks",
+        text: "Reversible whole-body cryopreservation for animals",
         completed: false,
+        projects: [
+          {
+            name: "Cryopets",
+            url: "https://cryopets.com",
+          },
+        ]
       },
     ]
   },
   {
-    title: "Whole-body Cryopreservation",
-    description: "Preserve human body in cryostasis",
+    title: "Human Cryopreservation",
+    description: "Cryonics for humans",
     icon: "fas fa-male",
     problems: [
       {
-        text: "Brain cryopreservation",
+        text: "Reversible cryopreservation of human organs",
         completed: false,
+        projects: [
+          {
+            name: "21st Century Medicine",
+            url: "https://21cm.com",
+          },
+          {
+            name: "Lorentz Bio",
+            url: "https://www.lorentz.bio/",
+          },
+        ]
       },
       {
-        text: "Mainstream medical support",
+        text: "Sudden death augments",
         completed: false,
+        projects: [
+          {
+            name: "Cryopets",
+            url: "https://cryopets.com",
+          },
+        ]
       },
       {
-        text: "Solution for sudden death ischemia",
+        text: "Intermediate temperature storage cryonics",
         completed: false,
+        projects: [
+          {
+            name: "Tomorrow Biostasis",
+            url: "https://tomorrowbiostasis.com/",
+          },
+          {
+            name: "Cryopets",
+            url: "https://cryopets.com",
+          },
+        ]
       },
       {
-        text: "Portable cryopreservation chambers",
+        text: "BBB modifiers",
         completed: false,
+        projects: [
+          {
+            name: 'Advanced Neural Biosciences',
+            url: 'https://www.biostasis.com/profile_aschwin-de-wolf/'
+          }
+        ]
       },
       {
-        text: "Full body cryopreservation",
+        text: "Reversible cryopreservation of human brains",
+        completed: false,
+        projects: [
+          {
+            name: "Lorentz Bio",
+            url: "https://www.lorentz.bio/",
+          },
+        ]
+      },
+      {
+        text: "Reversible whole-body cryopreservation for humans",
         completed: false,
         projects: [
           {
@@ -88,38 +144,70 @@ export const prevention = [
     ]
   },
   {
-    title: "Revival",
-    description: "Reanimate and repair damage",
+    title: "Cryopreservation Revival",
+    description: "Repair damage and reanimate",
     icon: "fas fa-heartbeat",
     problems: [
       {
-        text: "Reversal of cryopreservation damage",
-        completed: false,
-      },
-      {
-        text: "Thawing without cracking",
+        text: "Warming protocols",
         completed: false,
         projects: [
           {
             name: "21st Century Medicine",
-            url: "https://www.21cm.com/",
+            url: "https://21cm.com",
           },
           {
-            name: "Biostasis Research Institute",
-            url: "https://biostasisresearch.org/",
+            name: "Lorentz Bio",
+            url: "https://www.lorentz.bio/",
+          },
+          {
+            name: "Tomorrow Biostasis",
+            url: "https://tomorrowbiostasis.com/",
+          },
+          {
+            name: "Cryopets",
+            url: "https://cryopets.com",
           },
         ]
       },
       {
-        text: "Prepare revived patients for re-entry into society",
+        text: "Re-perfusion protocols",
+        completed: false,
+        projects: [
+          {
+            name: "21st Century Medicine",
+            url: "https://21cm.com",
+          },
+          {
+            name: "Lorentz Bio",
+            url: "https://www.lorentz.bio/",
+          },
+          {
+            name: "Tomorrow Biostasis",
+            url: "https://tomorrowbiostasis.com/",
+          },
+          {
+            name: "Cryopets",
+            url: "https://cryopets.com",
+          },
+        ]
+      },
+      {
+        text: "Nanorobotic revival via conventional cell repair or molecular reconstruction",
+        completed: false,
+        projects: [
+          {
+            name: 'Robert A. Freitas Jr.',
+            url: 'https://www.alcor.org/cryostasis-revival/'
+          }
+        ]
+      },
+      {
+        text: "Replacement bodies for neuro patients",
         completed: false,
       },
       {
-        text: "Induced cryosleep for deep space missions",
-        completed: false,
-      },
-      {
-        text: "Nanomedicine",
+        text: "Whole-brain emulation for patients preserved via irreversible methods",
         completed: false,
       },
     ]
@@ -128,121 +216,107 @@ export const prevention = [
 
 export const extension = [
   {
-    title: "Demystify Aging Process",
-    description: "Discover underlying causes of aging",
-    icon: "fas fa-microscope",
+    title: "Brain tissue replacement",
+    description: "Reverse aging of the brain",
+    icon: "fas fa-brain",
     problems: [
       {
-        text: "Discover mechanisms underlying aging process",
-        completed: true,
+        text: "Induced neuronal subtypes, glia, microglia, and vascular cells",
+        completed: false,
         projects: [
           {
-            name: "SENS",
-            url: "https://www.sens.org/",
-          },
+            name: 'Hébert Lab',
+            url: 'https://hebertlab.einsteinmedneuroscience.org/'
+          }
         ]
       },
       {
-        text: "Accurate human aging clock to test efficacy of interventions",
+        text: "ECM scaffold",
         completed: false,
+        projects: [
+          {
+            name: 'Hébert Lab',
+            url: 'https://hebertlab.einsteinmedneuroscience.org/'
+          }
+        ]
       },
       {
-        text: "Composite biomarker of multimorbidity risk",
+        text: "Brain tissue construction",
         completed: false,
+        projects: [
+          {
+            name: 'Hébert Lab',
+            url: 'https://hebertlab.einsteinmedneuroscience.org/'
+          }
+        ]
       },
       {
-        text: "In silico human model for aging",
+        text: "Brain tissue replacement surgery",
         completed: false,
-      },
-      {
-        text: "Mainstream medical support",
-        completed: false,
+        projects: [
+          {
+            name: 'Hébert Lab',
+            url: 'https://hebertlab.einsteinmedneuroscience.org/'
+          }
+        ]
       },
     ]
   },
   {
-    title: "Longevity Interventions",
-    description: "Increase lifespan and healthspan",
-    icon: "fas fa-pills",
+    title: "Whole-body replacement",
+    description: "Replace entire human body",
+    icon: "fas fa-person-booth",
     problems: [
       {
-        text: "Increase lifespan in model organisms",
-        completed: true,
+        text: "Human cloning",
+        completed: false,
+      },
+      {
+        text: "Deliberate hydranencephaly",
+        completed: false,
+      },
+      {
+        text: "Head or brain transplant",
+        completed: false,
+      },
+      {
+        text: "Restore full-body functionality of quadriplegics",
+        completed: false,
+        projects: [
+          {
+            name: 'Neuralink',
+            url: 'https://neuralink.com/'
+          }
+        ]
+      },
+    ]
+  },
+  {
+    title: "Cure aging",
+    description: "Reverse and prevent aging process",
+    icon: "fas fa-history",
+    problems: [
+      {
+        text: "Senolytics",
+        completed: false,
       },
       {
         text: "Translate model organisms to humans",
         completed: false,
         projects: [
           {
+            name: "Rejuvenate Bio",
+            url: "https://www.rejuvenatebio.com/",
+          },
+          {
+            name: "Dog Aging Project",
+            url: "https://dogagingproject.org/",
+          },{
             name: "Loyal",
             url: "https://loyalfordogs.com/",
           },
-          {
-            name: "Rejuvenate Bio",
-            url: "https://www.rejuvenatebio.com/",
-          }
-        ]
-      },
-      {
-        text: "Accelerate validation of near-term interventions",
-        completed: false,
-        projects: [
-          {
-            name: "OpenCures",
-            url: "https://my.opencures.org/"
-          },
-        ]
-      },
-      {
-        text: "Translate human observational studies to clinical practice",
-        completed: false,
-      },
-      {
-        text: "FDA approval on aging drug",
-        completed: false,
-      },
-    ]
-  },
-  {
-    title: "Reverse Aging",
-    description: "Reverse damage caused by aging",
-    icon: "fas fa-history",
-    problems: [
-      {
-        text: "Epigenetic reprogramming",
-        completed: false,
-        projects: [
-          {
-            name: "Rejuvenate Bio",
-            url: "https://www.rejuvenatebio.com/",
-          },
-          {
-            name: "Life Biosciences",
-            url: "https://www.lifebiosciences.com/",
-          },
-          {
-            name: "Turn.bio",
-            url: "https://www.turn.bio/",
-          },
+
         ],
-      },
-      {
-        text: "Cellular rejuvenation",
-        completed: false,
-        projects: [
-          {
-            name: "AgeX",
-            url: "https://www.agexinc.com/",
-          },
-          {
-            name: "Alkahest",
-            url: "https://www.alkahest.com/",
-          },
-          {
-            name: "Calico",
-            url: "https://www.calicolabs.com/",
-          },
-        ]
       },
       {
         text: "Aging damage repair",
@@ -255,12 +329,66 @@ export const extension = [
         ],
       },
       {
-        text: "Full reversal of human aging process",
+        text: "Prevent immune system decline",
         completed: false,
+        projects: [
+          {
+            name: "Intervene Immune",
+            url: "http://interveneimmune.com/",
+          },
+        ],
       },
       {
-        text: "FDA approval of age reversal therapy",
+        text: "Gene therapy",
         completed: false,
+        projects: [
+          {
+            name: "Rejuvenate Bio",
+            url: "https://www.sens.org/",
+          },
+          {
+            name: "Minicircle",
+            url: "https://minicircle.io/",
+          },
+          {
+            name: "Gordian Biotechnology",
+            url: "https://www.gordian.bio/",
+          },
+          {
+            name: "Centaura",
+            url: "https://centaura.com/",
+          },
+        ],
+      },
+      {
+        text: "Cellular reprogramming",
+        completed: false,
+        projects: [
+          {
+            name: "Altos Labs",
+            url: "https://altoslabs.com/",
+          },
+          {
+            name: "AgeX Therapeautics",
+            url: "https://www.agexinc.com/",
+          },
+          {
+            name: "Life Biosciences",
+            url: "https://www.lifebiosciences.com/",
+          },
+          {
+            name: "NewLimit",
+            url: "https://www.newlimit.com/",
+          },
+          {
+            name: "Retro Biosciences",
+            url: "https://retro.bio/",
+          },
+          {
+            name: "Shift Bioscience",
+            url: "https://www.shiftbioscience.com/",
+          },
+        ]
       },
     ]
   },
@@ -279,16 +407,6 @@ export const ascension = [
           {
             name: "Doudna Lab",
             url: "https://doudnalab.org/",
-          },
-        ]
-      },
-      {
-        text: "Consumer genetic engineering",
-        completed: false,
-        projects: [
-          {
-            name: "The ODIN",
-            url: "https://www.the-odin.com/",
           },
         ]
       },
@@ -319,7 +437,7 @@ export const ascension = [
   {
     title: "Synthetic Bodies",
     description: "Recreate human body artificially",
-    icon: "fas fa-person-booth",
+    icon: "fas fa-robot",
     problems: [
       {
         text: "Humanoid robotics",
@@ -356,7 +474,7 @@ export const ascension = [
   {
     title: "Consciousness Transfer",
     description: "Transfer consciousness to new brain",
-    icon: "fas fa-brain",
+    icon: "fas fa-flag-checkered",
     problems: [
       {
         text: "Mapping and understanding the human brain",

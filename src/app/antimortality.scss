@@ -73,7 +73,7 @@ i {
       text-transform: uppercase;
       font-size: 16px;
       letter-spacing: 5px;
-      border-bottom: 1px solid $am-light;
+      border-bottom: 2px solid $am-light;
       padding-bottom: 20px;
     }
   }
@@ -159,7 +159,7 @@ i {
 .checkbox-outer {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-top: 25px;
 
   .checkbox {
     height: 20px;
@@ -191,7 +191,7 @@ i {
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-top: 15px;
   background-color: $am-gray;
   border: 1px solid $am-light;
   margin-right: 15px;
@@ -212,10 +212,6 @@ i {
   img {
     height: 12px;
     width: 12px;
-  }
-
-  &:last-of-type {
-    margin-bottom: 40px;
   }
 
   p {
