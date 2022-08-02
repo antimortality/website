@@ -331,6 +331,16 @@ export const extension = [
       {
         text: "Senolytics",
         completed: false,
+        projects: [
+          {
+            name: "Unity Biotechnology",
+            url: "http://www.unitybiotechnology.com/",
+          },
+          {
+            name: "Dorian Therapeautics",
+            url: "https://www.doriantherapeutics.com/",
+          },
+        ],
       },
       {
         text: "Prevent immune system decline",
@@ -491,8 +501,8 @@ export const ascension = [
   },
   {
     title: "Consciousness Transfer",
-    description: "Transfer consciousness to new brain",
-    icon: "fas fa-flag-checkered",
+    description: "Gradual transfer to synthetic brain",
+    icon: "fas fa-spinner",
     problems: [
       {
         text: "Mapping and understanding the human brain",
@@ -577,9 +587,50 @@ export const ascension = [
         completed: false,
       },
       {
-        text: "Transfer consciousness retaining self",
+        text: "Fully transcend biology",
         completed: false,
       },
     ]
   },
+  {
+    title: "Immortality",
+    description: "Become gods with eternal life",
+    icon: "fas fa-ankh",
+    problems: [
+      {
+        text: "Become multiplanetary species",
+        completed: false,
+        projects: [
+          {
+            name: "SpaceX",
+            url: "https://www.spacex.com/",
+          },
+        ]
+      },
+      {
+        text: "Stream consciousness to external body",
+        completed: false,
+      },
+      {
+        text: "Type I Civilization",
+        completed: false,
+      },
+      {
+        text: "Type II Civilization",
+        completed: false,
+      },
+      {
+        text: "Type III Civilization",
+        completed: false,
+      },
+      {
+        text: "Prevent or escape heat death of universe",
+        completed: false,
+      },
+      {
+        text: "Create new universes",
+        completed: false,
+      },
+    ]
+  }
 ]
