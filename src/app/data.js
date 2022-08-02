@@ -231,16 +231,6 @@ export const extension = [
         ]
       },
       {
-        text: "ECM scaffold",
-        completed: false,
-        projects: [
-          {
-            name: 'Hébert Lab',
-            url: 'https://hebertlab.einsteinmedneuroscience.org/'
-          }
-        ]
-      },
-      {
         text: "Brain tissue construction",
         completed: false,
         projects: [
@@ -276,7 +266,7 @@ export const extension = [
         completed: false,
       },
       {
-        text: "Head or brain transplant",
+        text: "Head transplant",
         completed: false,
       },
       {
@@ -289,6 +279,10 @@ export const extension = [
           }
         ]
       },
+      {
+        text: "Brain transplant",
+        completed: false,
+      },
     ]
   },
   {
@@ -299,10 +293,22 @@ export const extension = [
       {
         text: "Define aging",
         completed: false,
+        projects: [
+          {
+            name: "SENS",
+            url: "https://www.sens.org/",
+          },
+        ],
       },
       {
         text: "Biomarkers for measuring interventions",
         completed: false,
+        projects: [
+          {
+            name: "CureDAO",
+            url: "https://www.curedao.org/",
+          },
+        ],
       },
       {
         text: "Translate model organisms to humans",
@@ -315,11 +321,11 @@ export const extension = [
           {
             name: "Dog Aging Project",
             url: "https://dogagingproject.org/",
-          },{
+          },
+          {
             name: "Loyal",
             url: "https://loyalfordogs.com/",
           },
-
         ],
       },
       {
@@ -364,6 +370,10 @@ export const extension = [
             name: "Shift Bioscience",
             url: "https://www.shiftbioscience.com/",
           },
+          {
+            name: "Youth Bio",
+            url: "https://youthbiotx.com/",
+          },
         ]
       },
       {
@@ -372,7 +382,7 @@ export const extension = [
         projects: [
           {
             name: "Rejuvenate Bio",
-            url: "https://www.sens.org/",
+            url: "https://www.rejuvenatebio.com/",
           },
           {
             name: "Minicircle",
