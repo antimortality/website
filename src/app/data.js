@@ -104,7 +104,7 @@ export const prevention = [
         ]
       },
       {
-        text: "BBB modifiers",
+        text: "Blood-brain barrier modifiers",
         completed: false,
         projects: [
           {
