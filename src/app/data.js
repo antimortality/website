@@ -249,6 +249,10 @@ export const extension = [
         completed: false,
       },
       {
+        text: "Incubator to grow human clones to desired size",
+        completed: false,
+      },
+      {
         text: "Head transplant, spinal fusion and spinal cord reattachment",
         completed: false,
       },
@@ -284,16 +288,38 @@ export const extension = [
         ],
       },
       {
-        text: "Biomarkers for measuring interventions",
-        completed: false,
-      },
-      {
-        text: "Translate model organisms to humans",
+        text: "Biomarkers for measuring intervention effectiveness, biological age tests",
         completed: false,
         projects: [
           {
-            name: "Rejuvenate Bio",
-            url: "https://www.rejuvenatebio.com/",
+            name: "GlycanAge",
+            url: "https://glycanage.com/",
+          },
+          {
+            name: "Age Labs",
+            url: "https://www.agelabs.com/",
+          },
+          {
+            name: "Elysium Health",
+            url: "https://www.elysiumhealth.com/",
+          },
+        ],
+      },
+      {
+        text: "Small molecule longevity drugs",
+        completed: false,
+        projects: [
+          {
+            name: "Hevolution",
+            url: "https://hevolutionfoundation.com/",
+          },
+          {
+            name: 'Insilico Medicine',
+            url: 'https://insilico.com/',
+          },
+          {
+            name: 'BioAge',
+            url: 'https://bioagelabs.com/',
           },
           {
             name: "Dog Aging Project",
@@ -311,11 +337,7 @@ export const extension = [
         projects: [
           {
             name: "Unity Biotechnology",
-            url: "http://www.unitybiotechnology.com/",
-          },
-          {
-            name: "Dorian Therapeautics",
-            url: "https://www.doriantherapeutics.com/",
+            url: "https://unitybiotechnology.com/",
           },
         ],
       },
@@ -336,6 +358,10 @@ export const extension = [
           {
             name: "Altos Labs",
             url: "https://altoslabs.com/",
+          },
+          {
+            name: "Calico",
+            url: "https://www.calicolabs.com/",
           },
           {
             name: "AgeX Therapeautics",
@@ -379,6 +405,18 @@ export const extension = [
             name: "Gordian Biotechnology",
             url: "https://www.gordian.bio/",
           },
+          {
+            name: "Centaura",
+            url: "https://centaura.com/",
+          },
+          {
+            name: "Repair Biotechnologies",
+            url: "https://www.repairbiotechnologies.com/",
+          },
+          {
+            name: "Dyno Therapeautics",
+            url: "https://www.dynotx.com/",
+          },
         ],
       },
       {
@@ -412,29 +450,55 @@ export const ascension = [
         ]
       },
       {
-        text: "Artificial and grown organs",
+        text: "Artificial organs",
         completed: false,
         projects: [
+          {
+            name: "SynCardia",
+            url: "https://syncardia.com/"
+          },
           {
             name: "CARMAT",
             url: "https://www.carmatsa.com/"
           },
           {
-            name: "SynCardia",
-            url: "https://syncardia.com/"
+            name: "Medtronic",
+            url: "https://www.medtronic.com/"
           },
         ]
       },
       {
-        text: "Lifelike prosthetics",
+        text: "Augmented reality",
         completed: false,
+        projects: [
+          {
+            name: "Humane",
+            url: "https://hu.ma.ne"
+          },
+          {
+            name: "Meta",
+            url: "https://meta.com/"
+          },
+          {
+            name: "Snap",
+            url: "https://ar.snap.com/"
+          },
+          {
+            name: "Apple",
+            url: "https://www.apple.com/augmented-reality/"
+          },
+          {
+            name: "Google",
+            url: "https://arvr.google.com/ar/"
+          },
+          {
+            name: "Microsoft",
+            url: "https://www.microsoft.com/en-us/hololens"
+          },
+        ]
       },
       {
-        text: "Bionic implants and cyberware",
-        completed: false,
-      },
-      {
-        text: "Neurological enhancements",
+        text: "Cyberware",
         completed: false,
       },
     ]
@@ -462,25 +526,6 @@ export const ascension = [
         text: "Artificial human body",
         completed: false,
       },
-      {
-        text: "Control bionics from the brain",
-        completed: false,
-      },
-      {
-        text: "Simulate biological feelings and senses",
-        completed: false,
-      },
-      {
-        text: "Brain transplant",
-        completed: false,
-      },
-    ]
-  },
-  {
-    title: "Consciousness Transfer",
-    description: "Gradual transfer to synthetic brain",
-    icon: "fas fa-spinner",
-    problems: [
       {
         text: "Mapping and understanding the human brain",
         completed: false,
@@ -534,28 +579,39 @@ export const ascension = [
         ]
       },
       {
+        text: "Simulate biological feelings and senses",
+        completed: false,
+      },
+      {
+        text: "Brain transplant",
+        completed: false,
+      },
+    ]
+  },
+  {
+    title: "Consciousness Transfer",
+    description: "Fully transcend biology",
+    icon: "fas fa-spinner",
+    problems: [
+      {
         text: "Artificial general intelligence",
         completed: false,
         projects: [
           {
-            name: "DeepMind",
-            url: "https://deepmind.com/",
+            name: "OpenAI",
+            url: "https://openai.com/",
           },
           {
-            name: "Facebook AI Research",
-            url: "https://ai.facebook.com/",
+            name: "DeepMind",
+            url: "https://deepmind.com/",
           },
           {
             name: "Google Brain",
             url: "https://research.google/teams/brain/",
           },
           {
-            name: "OpenAI",
-            url: "https://openai.com/",
-          },
-          {
-            name: "Tesla",
-            url: "https://www.tesla.com/",
+            name: "Facebook AI Research",
+            url: "https://ai.facebook.com/",
           },
         ]
       },
@@ -564,7 +620,7 @@ export const ascension = [
         completed: false,
       },
       {
-        text: "Fully transcend biology",
+        text: "Gradual transfer of consciousness from biological brain to artificial brain",
         completed: false,
       },
     ]
