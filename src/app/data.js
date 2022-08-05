@@ -197,7 +197,7 @@ export const prevention = [
         completed: false,
         projects: [
           {
-            name: 'Robert A. Freitas Jr.',
+            name: 'Cryostasis Revival',
             url: 'https://www.alcor.org/cryostasis-revival/'
           }
         ]
@@ -216,61 +216,40 @@ export const prevention = [
 
 export const extension = [
   {
-    title: "Brain tissue replacement",
-    description: "Reverse aging of the brain",
-    icon: "fas fa-brain",
-    problems: [
-      {
-        text: "Brain tissue construction",
-        completed: false,
-        projects: [
-          {
-            name: 'Hébert Lab',
-            url: 'https://hebertlab.einsteinmedneuroscience.org/'
-          }
-        ]
-      },
-      {
-        text: "Robotic brain surgery",
-        completed: false,
-      },
-      {
-        text: "Brain tissue silencing",
-        completed: false,
-        projects: [
-          {
-            name: 'Hébert Lab',
-            url: 'https://hebertlab.einsteinmedneuroscience.org/'
-          }
-        ]
-      },
-      {
-        text: "Brain tissue replacement surgery",
-        completed: false,
-        projects: [
-          {
-            name: 'Hébert Lab',
-            url: 'https://hebertlab.einsteinmedneuroscience.org/'
-          }
-        ]
-      },
-    ]
-  },
-  {
     title: "Whole-body replacement",
     description: "Replace entire body except for brain",
     icon: "fas fa-person-booth",
     problems: [
       {
-        text: "Human cloning",
+        text: "Brain tissue construction, silencing, and replacement",
+        completed: false,
+        projects: [
+          {
+            name: 'Hébert Lab',
+            url: 'https://hebertlab.einsteinmedneuroscience.org/'
+          }
+        ]
+      },
+      {
+        text: "Synthetic human embryos",
+        completed: false,
+        projects: [
+          {
+            name: 'Renewal Bio',
+            url: 'https://www.renewal.bio'
+          }
+        ]
+      },
+      {
+        text: "Artificial wombs",
         completed: false,
       },
       {
-        text: "Deliberate hydranencephaly",
+        text: "Brainless and/or headless human clones",
         completed: false,
       },
       {
-        text: "Head transplant",
+        text: "Head transplant, spinal fusion and spinal cord reattachment",
         completed: false,
       },
       {
@@ -307,12 +286,6 @@ export const extension = [
       {
         text: "Biomarkers for measuring interventions",
         completed: false,
-        projects: [
-          {
-            name: "CureDAO",
-            url: "https://www.curedao.org/",
-          },
-        ],
       },
       {
         text: "Translate model organisms to humans",
@@ -406,14 +379,10 @@ export const extension = [
             name: "Gordian Biotechnology",
             url: "https://www.gordian.bio/",
           },
-          {
-            name: "Centaura",
-            url: "https://centaura.com/",
-          },
         ],
       },
       {
-        text: "Aging damage repair",
+        text: "Aging damage repair and prevention",
         completed: false,
         projects: [
           {
@@ -457,6 +426,10 @@ export const ascension = [
         ]
       },
       {
+        text: "Lifelike prosthetics",
+        completed: false,
+      },
+      {
         text: "Bionic implants and cyberware",
         completed: false,
       },
@@ -468,7 +441,7 @@ export const ascension = [
   },
   {
     title: "Synthetic Bodies",
-    description: "Recreate human body artificially",
+    description: "Brain transplant into robotic body",
     icon: "fas fa-robot",
     problems: [
       {
