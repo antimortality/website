@@ -450,26 +450,38 @@ export const ascension = [
         ]
       },
       {
-        text: "Artificial organs",
-        completed: false,
+        text: "Health tracking wearables",
+        completed: true,
         projects: [
           {
-            name: "SynCardia",
-            url: "https://syncardia.com/"
+            name: "Fitbit",
+            url: "https://www.fitbit.com/",
           },
           {
-            name: "CARMAT",
-            url: "https://www.carmatsa.com/"
+            name: "Oura",
+            url: "https://ouraring.com/",
           },
           {
-            name: "Medtronic",
-            url: "https://www.medtronic.com/"
+            name: "Apple",
+            url: "https://www.apple.com/shop/buy-watch/apple-watch",
           },
+          {
+            name: "Levels",
+            url: "https://www.levelshealth.com/",
+          },
+          {
+            name: "Whoop",
+            url: "https://www.whoop.com/",
+          },
+          {
+            name: "Garmin",
+            url: "https://www.garmin.com/en-US/c/sports-fitness/activity-fitness-trackers/",
+          }
         ]
       },
       {
         text: "Augmented reality",
-        completed: false,
+        completed: true,
         projects: [
           {
             name: "Humane",
@@ -494,6 +506,24 @@ export const ascension = [
           {
             name: "Microsoft",
             url: "https://www.microsoft.com/en-us/hololens"
+          },
+        ]
+      },
+      {
+        text: "Artificial organs",
+        completed: false,
+        projects: [
+          {
+            name: "SynCardia",
+            url: "https://syncardia.com/"
+          },
+          {
+            name: "CARMAT",
+            url: "https://www.carmatsa.com/"
+          },
+          {
+            name: "Medtronic",
+            url: "https://www.medtronic.com/"
           },
         ]
       },
