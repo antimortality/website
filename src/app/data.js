@@ -640,7 +640,7 @@ export const ascension = [
             url: "https://research.google/teams/brain/",
           },
           {
-            name: "Facebook AI Research",
+            name: "Meta AI",
             url: "https://ai.facebook.com/",
           },
         ]
