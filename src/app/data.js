@@ -39,12 +39,40 @@ export const prevention = [
         ]
       },
       {
+        text: "Skeletal muscle tissue and fatty tissue penetration",
+        completed: false,
+        projects: [
+          {
+            name: "Cryopets",
+            url: "https://cryopets.com",
+          },
+        ]
+      },
+      {
+        text: "Intermediate temperature storage cryonics",
+        completed: false,
+        projects: [
+          {
+            name: "Tomorrow Biostasis",
+            url: "https://tomorrowbiostasis.com/",
+          },
+          {
+            name: "Cryopets",
+            url: "https://cryopets.com",
+          },
+        ]
+      },
+      {
         text: "Reversible cryopreservation of animal brains",
         completed: false,
         projects: [
           {
             name: "Lorentz Bio",
             url: "https://www.lorentz.bio/",
+          },
+          {
+            name: "Cryopets",
+            url: "https://cryopets.com",
           },
         ]
       },
@@ -83,20 +111,6 @@ export const prevention = [
         text: "Sudden death augments",
         completed: false,
         projects: [
-          {
-            name: "Cryopets",
-            url: "https://cryopets.com",
-          },
-        ]
-      },
-      {
-        text: "Intermediate temperature storage cryonics",
-        completed: false,
-        projects: [
-          {
-            name: "Tomorrow Biostasis",
-            url: "https://tomorrowbiostasis.com/",
-          },
           {
             name: "Cryopets",
             url: "https://cryopets.com",
