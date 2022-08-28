@@ -480,36 +480,6 @@ export const ascension = [
         ]
       },
       {
-        text: "Augmented reality",
-        completed: true,
-        projects: [
-          {
-            name: "Humane",
-            url: "https://hu.ma.ne"
-          },
-          {
-            name: "Meta",
-            url: "https://meta.com/"
-          },
-          {
-            name: "Snap",
-            url: "https://ar.snap.com/"
-          },
-          {
-            name: "Apple",
-            url: "https://www.apple.com/augmented-reality/"
-          },
-          {
-            name: "Google",
-            url: "https://arvr.google.com/ar/"
-          },
-          {
-            name: "Microsoft",
-            url: "https://www.microsoft.com/en-us/hololens"
-          },
-        ]
-      },
-      {
         text: "Artificial organs",
         completed: false,
         projects: [
@@ -529,6 +499,10 @@ export const ascension = [
       },
       {
         text: "Cybernetic enhancements",
+        completed: false,
+      },
+      {
+        text: "Continuous preventative health monitoring sensors",
         completed: false,
       },
     ]
