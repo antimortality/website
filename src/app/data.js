@@ -1,7 +1,7 @@
 export const prevention = [
   {
     title: "Animal Cryopreservation",
-    description: "Cryonics for pets",
+    description: "Cryonics for small animals",
     icon: "fas fa-cat",
     problems: [
       {
@@ -36,43 +36,45 @@ export const prevention = [
             name: "21st Century Medicine",
             url: "https://21cm.com",
           },
+          {
+            name: "Cryonics Institute",
+            url: "https://www.cryonics.org",
+          },
         ]
       },
       {
         text: "Skeletal muscle tissue and fatty tissue penetration",
         completed: false,
+      },
+      {
+        text: "Helium persufflation",
+        completed: false,
         projects: [
           {
-            name: "Cryopets",
-            url: "https://cryopets.com",
+            name: "21st Century Medicine",
+            url: "https://21cm.com",
+          },
+          {
+            name: "Lorentz Bio",
+            url: "https://www.lorentz.bio/",
           },
         ]
       },
       {
         text: "Intermediate temperature storage cryonics",
         completed: false,
-        projects: [
-          {
-            name: "Tomorrow Biostasis",
-            url: "https://tomorrowbiostasis.com/",
-          },
-          {
-            name: "Cryopets",
-            url: "https://cryopets.com",
-          },
-        ]
       },
       {
         text: "Reversible cryopreservation of animal brains",
         completed: false,
         projects: [
           {
-            name: "Lorentz Bio",
-            url: "https://www.lorentz.bio/",
-          },
-          {
             name: "Cryopets",
             url: "https://cryopets.com",
+          },
+          {
+            name: "Lorentz Bio",
+            url: "https://www.lorentz.bio/",
           },
         ]
       },
@@ -110,21 +112,29 @@ export const prevention = [
       {
         text: "Sudden death augments",
         completed: false,
-        projects: [
-          {
-            name: "Cryopets",
-            url: "https://cryopets.com",
-          },
-        ]
       },
       {
-        text: "Blood-brain barrier modifiers",
+        text: "Whole-body field cryoprotection",
         completed: false,
         projects: [
           {
-            name: 'Advanced Neural Biosciences',
-            url: 'https://www.biostasis.com/profile_aschwin-de-wolf/'
+            name: "Tomorrow Biostasis",
+            url: "https://tomorrowbiostasis.com/",
           }
+        ]
+      },
+      {
+        text: "Blood-brain barrier modifiers, prevent dehydration shrinkage",
+        completed: false,
+        projects: [
+          {
+            name: "Alcor",
+            url: "https://www.alcor.org/",
+          },
+          {
+            name: "Cryonics Institute",
+            url: "https://www.cryonics.org/",
+          },
         ]
       },
       {
@@ -163,48 +173,12 @@ export const prevention = [
     icon: "fas fa-heartbeat",
     problems: [
       {
-        text: "Warming protocols",
+        text: "Whole-body warming protocols",
         completed: false,
-        projects: [
-          {
-            name: "21st Century Medicine",
-            url: "https://21cm.com",
-          },
-          {
-            name: "Lorentz Bio",
-            url: "https://www.lorentz.bio/",
-          },
-          {
-            name: "Tomorrow Biostasis",
-            url: "https://tomorrowbiostasis.com/",
-          },
-          {
-            name: "Cryopets",
-            url: "https://cryopets.com",
-          },
-        ]
       },
       {
-        text: "Re-perfusion protocols",
+        text: "Whole-body re-perfusion protocols",
         completed: false,
-        projects: [
-          {
-            name: "21st Century Medicine",
-            url: "https://21cm.com",
-          },
-          {
-            name: "Lorentz Bio",
-            url: "https://www.lorentz.bio/",
-          },
-          {
-            name: "Tomorrow Biostasis",
-            url: "https://tomorrowbiostasis.com/",
-          },
-          {
-            name: "Cryopets",
-            url: "https://cryopets.com",
-          },
-        ]
       },
       {
         text: "Nanorobotic revival via conventional cell repair or molecular reconstruction",
@@ -353,6 +327,10 @@ export const extension = [
             name: "Unity Biotechnology",
             url: "https://unitybiotechnology.com/",
           },
+          {
+            name: "Rubedo Life Sciences",
+            url: "https://www.rubedolife.com",
+          }
         ],
       },
       {
@@ -376,6 +354,10 @@ export const extension = [
           {
             name: "Calico",
             url: "https://www.calicolabs.com/",
+          },
+          {
+            name: "Turn Bio",
+            url: "https://www.turn.bio",
           },
           {
             name: "AgeX Therapeautics",
@@ -424,10 +406,6 @@ export const extension = [
             url: "https://centaura.com/",
           },
           {
-            name: "Repair Biotechnologies",
-            url: "https://www.repairbiotechnologies.com/",
-          },
-          {
             name: "Dyno Therapeautics",
             url: "https://www.dynotx.com/",
           },
@@ -440,6 +418,14 @@ export const extension = [
           {
             name: "SENS",
             url: "https://www.sens.org/",
+          },
+          {
+            name: "Repair Biotechnologies",
+            url: "https://www.repairbiotechnologies.com/",
+          },
+          {
+            name: "Cyclarity Therapeautics",
+            url: "https://cyclaritytx.com",
           },
         ],
       },
