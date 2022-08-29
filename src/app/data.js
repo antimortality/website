@@ -47,7 +47,7 @@ export const prevention = [
         completed: false,
       },
       {
-        text: "Helium persufflation",
+        text: "Persufflation (gaseous oxygen perfusion)",
         completed: false,
         projects: [
           {
@@ -225,6 +225,16 @@ export const extension = [
           {
             name: 'Hébert Lab',
             url: 'https://hebertlab.einsteinmedneuroscience.org/'
+          }
+        ]
+      },
+      {
+        text: "Young blood transfusions",
+        completed: false,
+        projects: [
+          {
+            name: 'Ambrosia',
+            url: 'https://www.ambrosiaplasma.com'
           }
         ]
       },
