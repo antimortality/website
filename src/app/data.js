@@ -209,6 +209,16 @@ export const extension = [
     icon: "fas fa-person-booth",
     problems: [
       {
+        text: "Human organ transplants",
+        completed: true,
+        projects: [
+          {
+            name: "Joseph Murray",
+            url: "https://en.wikipedia.org/wiki/Joseph_Murray",
+          }
+        ]
+      },
+      {
         text: "Brain tissue construction, silencing, and replacement",
         completed: false,
         projects: [
