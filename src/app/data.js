@@ -229,16 +229,6 @@ export const extension = [
         ]
       },
       {
-        text: "Young blood transfusions",
-        completed: false,
-        projects: [
-          {
-            name: 'Ambrosia',
-            url: 'https://www.ambrosiaplasma.com'
-          }
-        ]
-      },
-      {
         text: "Synthetic human embryos",
         completed: false,
         projects: [
