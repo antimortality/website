@@ -247,10 +247,6 @@ export const extension = [
         completed: false,
       },
       {
-        text: "Incubator to grow human clones to desired size",
-        completed: false,
-      },
-      {
         text: "Head transplant, spinal fusion and spinal cord reattachment",
         completed: false,
       },
